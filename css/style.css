@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
 #pricing{
     display: flex;
     flex-direction: row;
@@ -10,7 +11,7 @@
     top: 0;
     align-items: center;
     text-align: left;
-    background-color: white;
+    background-color: #fff;
     width: 100vw;
 }
 
@@ -24,7 +25,6 @@
 
 #list{
     display: flex;
-
 }
 
 .nav-item{
@@ -37,12 +37,49 @@
     color: black;
 }
 
+.features{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.input{
+  width: 100%;
+  height: 1rem;
+  padding: 0.8rem;
+  border-radius: 0.5rem;
+  outline: none;
+  border: 1px solid #ccc;
+  color: #000;
+  margin-bottom: 0.5rem;
+}
+.btn {
+  background-color: yellow;
+  outline: none;
+  width: 100%;
+  border: none;
+  padding: 0.5rem 0.2rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  color: #000;
+  font-weight: bold;
+}
+.form {
+  margin-bottom: 1rem;
+}
+
 #how-it-works{
     text-align: center;
 }
 
 section{
     margin-left: 10px;
+    padding-top: 10rem;
 }
 
 @media ( max-height:400px){
