@@ -59,7 +59,7 @@
   margin-bottom: 0.5rem;
 }
 .btn {
-  background-color: yellow;
+  background-color: rgb(255, 230, 0);
   outline: none;
   width: 100%;
   border: none;
@@ -80,6 +80,38 @@
 section{
     margin-left: 10px;
     padding-top: 10rem;
+}
+
+.product{
+    border: solid black 3px;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    width: 200px;
+}
+
+.product-features{
+    text-align: center;
+
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+.product-title{
+    background-color: lightgray;
+    width: 100%;
+    
+}
+
+.product-price{
+    font-size: 1em;
+}
+
+.feature{
+    margin: 5px
 }
 
 @media ( max-height:400px){
