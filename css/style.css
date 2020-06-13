@@ -1,0 +1,52 @@
+#pricing{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#header{
+    display: flex;
+    position: fixed;
+    top: 0;
+    align-items: center;
+    text-align: left;
+    background-color: white;
+    width: 100vw;
+}
+
+#img{
+    margin-right: 50vw;
+}
+
+#header-img{
+    width: 300px;
+}
+
+#list{
+    display: flex;
+
+}
+
+.nav-item{
+    list-style: none;
+    margin-left: 10px;
+}
+
+.nav-link{
+    text-decoration: none;
+    color: black;
+}
+
+#how-it-works{
+    text-align: center;
+}
+
+section{
+    margin-left: 10px;
+}
+
+@media ( max-height:400px){
+    #header-img{
+        width: 100px;
+    }
+}

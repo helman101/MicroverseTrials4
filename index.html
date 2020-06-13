@@ -24,11 +24,11 @@
 
 
     <header id="header" class="header">
-      <div id="header-img" class="header-img">
-        <img src="https://s3.amazonaws.com/freecodecamp/original_trombones.png" alt="original trombones logo">
+      <div id="img" class="img">
+        <img src="https://s3.amazonaws.com/freecodecamp/original_trombones.png" alt="original trombones logo" id="header-img">
       </div>
       <nav id="nav-bar" class="nav-bar">
-        <ul>
+        <ul id="list">
           <li class="nav-item">
             <a href="#features" class="nav-link">Features</a>
           </li>
@@ -46,13 +46,9 @@
         <div class="container">
           <div id="features">
             <div class="form">
-              <form  action="" method="post" id="form">
-                <div class="field">
-                  <input type="email" id="email" name="email" placeholder="Enter your email">
-                </div>
-                <div class="field">
-                  <input type="button" id="submit" class="btn" name="submit" value="Submit">
-                </div>
+              <form  id="form" action="https://www.freecodecamp.com/email-submit">
+                <input type="email" id="email" name="email" placeholder="Enter your email">
+                <input type="submit" id="submit" class="btn" name="submit" value="Submit">
               </form>
             </div>
             <div id="how-it-works">
@@ -67,9 +63,9 @@
             <h4 class="product-title">HAND BAG</h4>
             <h6 class="product-price">$700</h6>
             <ul class="product-features">
-              <li class="feature"></li>
-              <li class="feature"></li>
-              <li class="feature"></li>
+              <li class="feature">Lorem ipsum</li>
+              <li class="feature">Lorem ipsum</li>
+              <li class="feature">Lorem ipsum</li>
             </ul>
             <button type="button" class="btn" name="button">SELECT</button>
           </div>
